@@ -1,7 +1,10 @@
+import Home from "./Home"
+import About from "./About"
+import { Routes , Route } from "react-router-dom"
+
 export default function App() {
-    return (
-        <div className="container">
-            <h1>I'm learning React Router !!</h1>
-        </div>
-    )
+    return <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
+    </Routes>
 }
