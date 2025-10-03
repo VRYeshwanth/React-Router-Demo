@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className="home-page">
             <h1>Home Page</h1>
-            <button onClick={() => navigate("/about")}>Go to About</button>
+            <button onClick={() => navigate("/posts")}>Go to Posts</button>
         </div>
     )
 }
